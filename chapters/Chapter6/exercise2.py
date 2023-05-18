@@ -1,6 +1,6 @@
 def getCombos(array: list, k: int) -> list:
     if k == 0:
-        return []
+        return array
     elif len(array) == 1:
         return array
 
